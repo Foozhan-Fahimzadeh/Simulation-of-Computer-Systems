@@ -1,0 +1,65 @@
+
+                                      ARENA Simulation Results
+                                     Asus - License: 7328734345
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 6/ 8/2024
+Analyst: Rockwell Automation                                         Model revision date: 6/ 8/2024
+
+Replication ended at time      : 1.4213435 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00708     (Insuf)    .00000     .02903        200    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        200    
+Entity 1.WaitTime                           .04689     (Insuf)    .00000     .13039        200    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        200    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        200    
+Entity 1.TotalTime                          .05396     (Insuf)    .00000     .14083        200    
+Poultry Order.Queue.WaitingTime             .03622     (Insuf)    .00160     .06805         42    
+Livestock Order.Queue.WaitingTime           .03108     (Insuf)    .00000     .07030         42    
+Process Livestock Order.Queue.WaitingTime   .04063     (Insuf)    .00000     .07576         91    
+Process Poultry Order.Queue.WaitingTime     .04259     (Insuf)    .01365     .07803         67    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                7.5934     (Insuf)    .00000     14.000     .00000    
+Butcher.NumberBusy                          .99592     (Insuf)    .00000     1.0000     .00000    
+Butcher.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Butcher.Utilization                         .99592     (Insuf)    .00000     1.0000     .00000    
+Poultry Order.Queue.NumberInQueue           1.0704     (Insuf)    .00000     4.0000     .00000    
+Livestock Order.Queue.NumberInQueue         .91850     (Insuf)    .00000     4.0000     .00000    
+Process Livestock Order.Queue.NumberInQueu  2.6010     (Insuf)    .00000     7.0000     .00000    
+Process Poultry Order.Queue.NumberInQueue   2.0076     (Insuf)    .00000     6.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record  Livestock Poultry Order                  42  Infinite
+Record  Livestock Order                          91  Infinite
+Record Poultry Order                             67  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           200.00    
+Entity 1.NumberOut                          200.00    
+Butcher.NumberSeized                        242.00    
+Butcher.ScheduledUtilization                .99592    
+System.NumberOut                            200.00    
+
+
+Simulation run time: 0.10 minutes.
+Simulation run complete.

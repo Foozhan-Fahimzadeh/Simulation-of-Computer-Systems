@@ -1,0 +1,16 @@
+[RESOURCES]
+Butcher
+[VARIABLES]
+Dispose Liverstock and Poultry.NumberOut
+Customer Arrivals.NumberOut
+Process Poultry Order.NumberOut
+Dispose Poultry.NumberOut
+Poultry Order.NumberIn
+Process Livestock Order.NumberIn
+Poultry Order.NumberOut
+Livestock Order.NumberOut
+Dispose Livestock.NumberOut
+Livestock Order.NumberIn
+Process Poultry Order.NumberIn
+CustomerType
+Process Livestock Order.NumberOut
